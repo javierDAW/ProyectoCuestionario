@@ -1,0 +1,364 @@
+/* 
+    Document   : plantilla
+    Created on : 12-nov-2012, 16:47:07
+    Author     : al036049
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    
+
+    -webkit-background-size: cover; /*for webKit*/
+    -moz-background-size: cover; /*Mozilla*/
+    -o-background-size: cover; /*opera*/
+    background-size: cover; /*generic*/
+
+}
+.opacidad{
+    opacity: 0.4;
+}
+li{
+    display: inline-block;
+}
+h1{
+    text-shadow: 0.1em 0.1em #838383;
+    margin-top: 25px;
+    font-size: 300%;
+    color: seashell;
+    text-align: center;
+  
+}
+h2{
+ text-shadow: 1px 1px #dddddd; 
+ text-decoration:underline;
+}
+h3{
+  text-shadow: 1px 1px #838383;  
+}
+.row{
+    margin-top:0px;
+}
+#envoltorio{
+    margin-top: 10px;
+    position:relative;
+    background: url("../img/fondo2.jpg") no-repeat center center fixed;
+     border-radius: 10px;
+}
+/*
+.total{
+    background: -moz-linear-gradient(top, #0d0d0d 16%, #010101 34%, #0a0a0a 49%, #4e4e4e 74%, #383838 87%, #1b1b1b 100%);
+    height: 80px;
+}
+*/
+#navegador{
+   padding-left: 5px;
+   padding-right: 5px;
+   width: 100px;
+   
+}
+.breadcrumb{
+     padding-left: 5px;
+   padding-right: 5px; 
+}
+#cabecera{
+    height: 120px;
+    width: 936px;
+    background-color: #0F53A8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    background-image: -moz-linear-gradient(top, #0F53A8 0%, #2989d8 50%, #207cca 72%, #6899D3 100%);
+    background-image: -webkit-linear-gradient(top, #0F53A8 0%, #2989d8 50%, #207cca 72%, #6899D3 100%);
+    background: -moz-linear-gradient(top, #0d0d0d 16%, #010101 34%, #0a0a0a 49%, #4e4e4e 74%, #383838 87%, #1b1b1b 100%);
+    background: -webkit-linear-gradient(top, #0d0d0d 16%, #010101 34%, #0a0a0a 49%, #4e4e4e 74%, #383838 87%, #1b1b1b 100%);
+    position:relative;
+    font-family:Arial, sans-serif;
+}
+#cabecera span{
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    color:#FFF;
+}
+#cabecera .cerrarSesion{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color:#FFF;
+}
+#cabecera .cerrarSesion a{
+    color:#CFCFCF;
+    text-decoration: underline;
+}
+
+#cabecera .cerrarSesion a:hover{
+    color: #FFF;
+}
+
+#contenedor{
+   /* height: 700px; */
+    /* min-height: 700px; */
+    /*overflow: auto;*/
+    background: #E57F26;
+    box-shadow: inset 10px 0px 80px 5px #B43104;
+    border-left: 2px #ffffff solid;
+    margin-left:0px;
+    /*max-width: 1050px;*/
+    opacity: 0.85;
+   
+}
+
+#menu{
+    height: 100%;
+    /*background: #E57F26;
+    box-shadow: inset 10px 0px 80px 5px #B43104;*/
+    opacity: 0.9;
+    
+    position:relative; 
+    float:left;
+}
+
+#menu h2{
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 1px 1px seashell;
+    text-decoration: none;
+  
+}
+
+#contenido{
+    height: 100%;
+    border-left: 2px solid #FFF;
+    margin-left: 8px;
+    background-color: #6899D3;
+    background: -moz-radial-gradient(center, ellipse cover, #7abcff 0%, #60abf8 44%, #4096ee 100%); 
+    border-right: 2px solid #FFF;
+    position:relative;
+    opacity: 0.9;
+    float:right; 
+    width: 745px;
+    min-height: 700px;
+}
+
+#clear1{
+    clear:both;
+}
+
+#pie{
+    
+    width: 936px;
+    height:70px;
+    background-color: #0F53A8;
+    border-left: 2px #ffffff solid;
+    border-right: 2px solid #FFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: -moz-linear-gradient(bottom, #0F53A8 0%, #2989d8 50%, #207cca 75%, #6899D3 100%);
+    background: -moz-linear-gradient(bottom, #0d0d0d 16%, #010101 34%, #0a0a0a 49%, #4e4e4e 74%, #383838 87%, #1b1b1b 100%);
+    background: -webkit-linear-gradient(bottom, #0d0d0d 16%, #010101 25%, #0a0a0a 49%, #4e4e4e 74%, #383838 87%, #1b1b1b 100%);
+}
+
+#login{
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 200px;
+    background-color: #CCC;
+    border: #FFF 2px solid;
+    border-radius: 15px;
+    padding:20px;
+}
+
+#formulario{
+    margin-left: 20px;
+}
+
+.centrar{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+#tabla{
+    
+    margin:20px;
+    background-color: #CCC;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+#recuadroNota{
+    text-align: center;
+    margin-top: 200px;
+}
+#pagContainer{
+    margin-left: 0px;
+}
+
+#paginacion{
+
+    position:absolute;
+    bottom:10px;
+    text-align: center;
+    margin:0 auto 10px auto;
+    width: 100%;
+    
+
+}
+
+#tabla th a{
+    color:black;
+} 
+
+#tabla th a:hover{
+    color:#1D678C;
+} 
+
+#atras{
+    right: 25px;
+    position: absolute;
+    bottom:10px;
+    background-color: #FFF;
+    padding:3px;
+    border-radius: 5px;
+    border-right: grey 2px solid;
+    border-bottom: grey 2px solid;
+    width:140px;
+    text-align: center;
+}
+
+#enviar{
+    margin-bottom: 20px;
+}
+
+#loginYPass{
+    color:red;
+    font-size: 14px;
+}
+/*
+#boton{
+    
+    position: absolute;
+    bottom:10px;
+    text-align: center;
+    
+}
+*/
+.span2{
+    width: 146px;
+}
+.offset4{
+    width: 80px;
+}
+.opciones{
+    margin-left: 20px;
+    text-decoration: wavy;
+    font-size: larger;
+    /*color: #f1f1f1;
+    text-shadow: 1px 1px #000;
+    */
+}
+.opciones input{
+    margin-bottom: 4px;
+   
+}
+
+table{max-width:100%;border-collapse:collapse;border-spacing:0;background-color:transparent;}
+.table{width:100%;margin-bottom:18px;}.table th,.table td{padding:8px;line-height:18px;text-align:left;vertical-align:top;border-top:1px solid #dddddd;}
+.table th{font-weight:bold;}
+.table thead th{vertical-align:bottom;}
+.table colgroup+thead tr:first-child th,.table colgroup+thead tr:first-child td,.table thead:first-child tr:first-child th,.table thead:first-child tr:first-child td{border-top:0;}
+.table tbody+tbody{border-top:2px solid #dddddd;}
+.table-condensed th,.table-condensed td{padding:4px 5px;}
+.table-striped tbody tr:nth-child(odd) td,.table-striped tbody tr:nth-child(odd) th{background-color:#f9f9f9;}
+.table tbody tr:hover td,.table tbody tr:hover th{background-color:#f5f5f5;}
+
+
+
+/*Ventana modal*/
+
+  #modal
+            {
+                position: absolute;
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 500;
+                filter: alpha(opacity=50);
+                opacity: 0.8;
+                -moz-opacity:0.8;
+                -webkit-opacity:0.8;
+                -o-opacity:0.8;
+                -ms-opacity:0.8;
+                background-color: #808080;
+                left: 0;
+                top: 0;
+                overflow: auto;
+            }
+
+            .contenedor
+            {
+                width: 500px;
+                background: #fff;
+                position: relative;
+                margin: 20% auto;
+                padding: 30px;
+                -moz-border-radius: 7px;
+                border-radius: 7px;
+                -webkit-box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+                -moz-box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+                box-shadow: 0 3px 20px rgba(0,0,0,0.9);
+                background: -moz-linear-gradient(#fff, #ccc);
+                background: -webkit-gradient(linear, right bottom, right top, color-stop(1, rgb(255,255,255)), color-stop(0.57, rgb(230,230,230)));
+                text-shadow: 0 1px 0 #fff;
+            }
+
+            .contenedor h2 {
+                font-size: 36px;
+                padding: 0 0 20px;
+            }
+
+            .contenedor a[href="#close"] {
+                position: absolute;
+                right: 0;
+                top: 0;
+                color: transparent;
+            }
+
+            .contenedor a[href="#close"]:focus {
+                outline: none;
+            }
+
+            .contenedor a[href="#close"]:after {
+                content: 'X';
+                display: block;
+                position: absolute;
+                right: -10px;
+                top: -10px;
+                width: 1.5em;
+                padding: 1px 1px 1px 2px;
+                text-decoration: none;
+                text-shadow: none;
+                text-align: center;
+                font-weight: bold;
+                background: #000;
+                color: #fff;
+                border: 3px solid #fff;
+                -moz-border-radius: 20px;
+                border-radius: 20px;
+                -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+                -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+                box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            }
+
+            .contenedor a[href="#close"]:focus:after,
+            .contenedor a[href="#close"]:hover:after {
+                -webkit-transform: scale(1.1,1.1);
+                -moz-transform: scale(1.1,1.1);
+            }
+           
